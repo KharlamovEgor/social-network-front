@@ -1,0 +1,13 @@
+.button {
+  background-color: hsl(240, 70%, 60%);
+  font-size: 1rem;
+  padding: 1em 1.2em;
+  color: white;
+  border: none;
+  border-radius: 1em;
+  transition: background-color 0.2s linear;
+}
+
+.button:hover {
+  background-color: hsl(240, 70%, 40%);
+}

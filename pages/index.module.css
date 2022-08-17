@@ -1,0 +1,36 @@
+.formContainer {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  min-width: 400px;
+  padding: 25px 20px;
+  border-radius: 1.5em;
+  border: 1px solid hsl(210, 20%, 90%);
+}
+
+.form input {
+  padding: 0.8rem 1rem;
+  border-radius: 1em;
+  border: 1px solid hsl(210, 20%, 90%);
+  background-color: hsl(200, 10%, 98%);
+  font-size: 1rem;
+}
+
+.form h1 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.error {
+  color: tomato;
+}
+
